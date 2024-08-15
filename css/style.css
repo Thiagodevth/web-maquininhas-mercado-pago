@@ -21,6 +21,9 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+
+    transition: .6s;
+    z-index: 5;
 }
 
 header .interface {
@@ -41,6 +44,7 @@ header .logo img.logo-preta {
 header.rolar {
     background-color: #fff;
     padding: 20px 0;
+    box-shadow: 0 0 8px #00000061;
 }
 
 header.rolar .menu-desktop nav ul li a {
@@ -166,15 +170,15 @@ section.hero-site {
 
 /* Estilo das vantagens*/
 section.vantagens {
-    padding: 55px 0;
+    padding: 30px 5px 22px 5px;
 }
 
 .vantagens .itens-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10%;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
 }
 
 .vantagens .itens-container .img-itens img {
@@ -206,7 +210,7 @@ section.contato {
 
 .txt-contato {
     position: sticky;
-    top: 45%;
+    top: 50%;
 }
 
 .contato .txt-contato h3 {
@@ -238,7 +242,7 @@ section.contato {
 
     width: 54%;
     height: 55px;
-    margin: 0 auto 17px auto;
+    margin: 0 auto 15px auto;
     padding: 0 52px;
 
     background-color: transparent;
