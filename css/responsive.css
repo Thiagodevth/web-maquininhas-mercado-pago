@@ -249,4 +249,22 @@
         line-height: 19px;
     }
 
+
+    /* Estilo rodapé*/
+    footer .middle-footer {
+        margin: 20px 0;
+    }
+
+    footer .middle-footer a {
+        display: block;
+        color: #fff;
+        margin: 15px 0;
+        font-size: 13px;
+    }
+
+    footer .bottom-footer p {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 12px;
+    }
 }
