@@ -107,6 +107,50 @@ header .btn-contato button:active {
     opacity: 0.6;
 }
 
+
+
+/* Estilo menu do botao menu mobile*/
+
+header .btn-menu-mob div {
+    background-color: #fff;
+    height: 3px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+header .btn-menu-mob .line-menumob-1 {
+    width: 30px;
+}
+
+header .btn-menu-mob .line-menumob-2 {
+    width: 20px;
+}
+
+header.rolar .btn-menu-mob div {
+    background-color: #000;
+}
+
+header .btn-menu-mob .line-menumob-1.ativo1 {
+    transform: rotate(45deg) translate(31%);
+}
+
+header .btn-menu-mob .line-menumob-2.ativo2 {
+    transform: rotate(-45deg) translate(31%);
+    width: 30px;
+}
+
+/* Estilo do menu mobile*/
+header .menu-mobile {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
 /* Estilo do hero*/
 section.hero-site {
     height: 95vh;
@@ -376,6 +420,7 @@ section.como-funciona {
     font-weight: 700;
     font-size: 1.8em;
     color: #0a0080;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
 }
 
 .instrucoes .instru-box {
