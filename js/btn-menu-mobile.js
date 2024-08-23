@@ -1,18 +1,15 @@
+let btnMenu = document.getElementById('btn-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
 
+btnMenu.addEventListener("click", () => {
+    menu.classList.add('abrir-menu')
+})
 
-let btnMenuMob = document.querySelector('#btn-menu-mob')
-let menuMobile = document.querySelector('#menu-mobile')
+menu.addEventListener("click", () => {
+    menu.classList.remove('abrir-menu')
+})
 
-let line1 = document.querySelector('.line-menumob-1')
-let line2 = document.querySelector('.line-menumob-2')
-
-let body = document.querySelector('body')
-
-btnMenuMob.addEventListener("click", () => {
-    line1.classList.toggle('ativo1')
-    line2.classList.toggle('ativo2')
-
-    menuMobile.classList.toggle('abrir')
-
-    body.classList.toggle('no-overflow')
+overlay.addEventListener("click", () => {
+    menu.classList.remove('abrir-menu')
 })
