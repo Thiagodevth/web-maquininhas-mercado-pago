@@ -5,6 +5,12 @@
         display: none;
     }
 
+    .btn-abrir-menu i {
+        font-size: 40px;
+        color: #fff;
+        display: block;
+    }
+
     header .btn-menu-mob {
         display: block;
         margin-right: 14px;
@@ -27,6 +33,12 @@
         margin-left: 0;
     }
 
+
+    header.rolar .btn-abrir-menu i {
+        font-size: 40px;
+        color: #000;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 890px) {

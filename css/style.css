@@ -66,6 +66,7 @@ header.rolar .logo .logo-preta {
 
 header .menu-desktop nav ul {
     list-style-type: none;
+    display: flex;
 }
 
 header .menu-desktop nav ul li {
@@ -110,36 +111,11 @@ header .btn-contato button:active {
     opacity: 0.6;
 }
 
-
-
-/* Estilo menu do botao menu mobile*/
-/* header .btn-menu-mob {
-    display: none;
-    position: relative;
-    z-index: 999999999;
-}
-
-header .btn-menu-mob div {
-    background-color: #fff;
-    height: 3px;
-    margin: 10px 0;
-    transition: .2s;
-}
-
-header.rolar .btn-menu-mob div {
-    background-color: #000;
-} */
-
-
-
-
-
-
-
 /* Estilo do menu mobile*/
 .btn-abrir-menu i {
     font-size: 40px;
     color: #fff;
+    display: none;
 }
 
 header .menu-mobile {
