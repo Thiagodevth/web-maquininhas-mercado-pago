@@ -23,7 +23,7 @@ header {
     top: 0;
     left: 0;
 
-    transition: .6s;
+    transition: .4s;
     z-index: 5;
 }
 
@@ -34,7 +34,7 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 95px;
+    width: 95px;
     margin-left: 7px;
 }
 
@@ -60,6 +60,7 @@ header.rolar .logo .logo-branca {
 header.rolar .logo .logo-preta {
     display: block;
     border-radius: 50%;
+    width: 75px;
 }
 
 /*-----------------------*/
@@ -218,8 +219,8 @@ section.hero-site {
 }
 
 .hero-site .txt-hero .img-zap {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 25px;
 }
